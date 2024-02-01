@@ -1,0 +1,6 @@
+name: MutePlus
+version: '${project.version}'
+main: me.hsgamer.muteplus.MutePlus
+api-version: '1.13'
+softdepend: [ YATPA ]
+folia-supported: true
