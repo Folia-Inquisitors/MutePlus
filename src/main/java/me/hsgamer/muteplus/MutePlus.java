@@ -2,6 +2,7 @@ package me.hsgamer.muteplus;
 
 import me.hsgamer.hscore.bukkit.baseplugin.BasePlugin;
 import me.hsgamer.hscore.bukkit.config.BukkitConfig;
+import me.hsgamer.hscore.bukkit.utils.MessageUtils;
 import me.hsgamer.hscore.config.proxy.ConfigGenerator;
 import me.hsgamer.muteplus.command.GlobalMuteCommand;
 import me.hsgamer.muteplus.command.GlobalUnmuteCommand;
@@ -20,6 +21,11 @@ public final class MutePlus extends BasePlugin {
     private final GlobalMuteManager globalMuteManager = new GlobalMuteManager(this);
     private final PlayerMuteManager playerMuteManager = new PlayerMuteManager(this);
     private final MessageConfig messageConfig = ConfigGenerator.newInstance(MessageConfig.class, new BukkitConfig(this, "messages.yml"));
+
+    @Override
+    public void load() {
+        MessageUtils.setPrefix(messageConfig::prefix);
+    }
 
     @Override
     public void enable() {
