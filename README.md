@@ -15,6 +15,21 @@ Player commands - /mute ( player ), /unmute ( player ).
 
 Admin commands - /GlobalMute ( player ), /GlobalUnmute ( player ).
 
+##Default Config
+
+filter-command:
+  global:
+  - /r
+  - /reply
+  player:
+  - /tpa
+  - /tpahere
+  - /w
+  - /whisper
+  - /msg
+  - /tell
+  enabled: true
+
 ### Folia inquisitors
 
 [<img src="https://github.com/Folia-Inquisitors.png" width=80 alt="Folia-Inquisitors">](https://github.com/orgs/Folia-Inquisitors/repositories)
