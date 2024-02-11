@@ -1,5 +1,5 @@
 # MutePlus
-Website: https://github.com/Folia-Inquisitors/MutePlus/tree/Master-ReadmeTest
+Website: https://www.spigotmc.org/resources/muteplus.115029/
 
 ## Building instructions
 
