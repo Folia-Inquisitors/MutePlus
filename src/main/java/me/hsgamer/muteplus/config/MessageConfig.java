@@ -28,6 +28,11 @@ public interface MessageConfig {
         return "&cYou must be a player to do this";
     }
 
+    @ConfigPath("command-denied")
+    default String commandDenied() {
+        return "&cYou cannot use this command while muted";
+    }
+
     @ConfigPath("yatpa.cancel")
     default String yatpaCancel() {
         return "&cYou cannot request teleport while muted";

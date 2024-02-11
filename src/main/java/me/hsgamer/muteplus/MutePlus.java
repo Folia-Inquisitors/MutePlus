@@ -8,9 +8,11 @@ import me.hsgamer.muteplus.command.GlobalMuteCommand;
 import me.hsgamer.muteplus.command.GlobalUnmuteCommand;
 import me.hsgamer.muteplus.command.MuteCommand;
 import me.hsgamer.muteplus.command.UnmuteCommand;
+import me.hsgamer.muteplus.config.MainConfig;
 import me.hsgamer.muteplus.config.MessageConfig;
 import me.hsgamer.muteplus.hook.YATPAHook;
 import me.hsgamer.muteplus.listener.ChatListener;
+import me.hsgamer.muteplus.listener.CommandListener;
 import me.hsgamer.muteplus.manager.GlobalMuteManager;
 import me.hsgamer.muteplus.manager.PlayerMuteManager;
 
@@ -20,6 +22,7 @@ import java.util.List;
 public final class MutePlus extends BasePlugin {
     private final GlobalMuteManager globalMuteManager = new GlobalMuteManager(this);
     private final PlayerMuteManager playerMuteManager = new PlayerMuteManager(this);
+    private final MainConfig mainConfig = ConfigGenerator.newInstance(MainConfig.class, new BukkitConfig(this), true, true);
     private final MessageConfig messageConfig = ConfigGenerator.newInstance(MessageConfig.class, new BukkitConfig(this, "messages.yml"));
 
     @Override
@@ -38,6 +41,7 @@ public final class MutePlus extends BasePlugin {
         registerCommand(new GlobalUnmuteCommand(this));
 
         registerListener(new ChatListener(this));
+        registerListener(new CommandListener(this));
 
         if (YATPAHook.isAvailable()) {
             registerListener(new YATPAHook(this));
@@ -61,6 +65,10 @@ public final class MutePlus extends BasePlugin {
 
     public PlayerMuteManager getPlayerMuteManager() {
         return playerMuteManager;
+    }
+
+    public MainConfig getMainConfig() {
+        return mainConfig;
     }
 
     public MessageConfig getMessageConfig() {
