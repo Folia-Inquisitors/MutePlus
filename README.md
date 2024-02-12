@@ -15,7 +15,7 @@ Player commands - /mute ( player ), /unmute ( player ).
 
 Admin commands - /GlobalMute ( player ), /GlobalUnmute ( player ).
 
-##Default Config
+## Default Config
 
 filter-command:
   global:
