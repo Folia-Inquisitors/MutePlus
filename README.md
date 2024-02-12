@@ -20,6 +20,19 @@ This allows you others to mute people that are annoying and spam chat. This is m
 >
 > /GlobalUnmute ( player ).
 
+# Messeges
+
+```
+global-mute: '&cYou are muted globally'
+player-only: '&cYou must be a player to do this'
+prefix: '&8[&cMutePlus&8] &r'
+success: '&aSuccess'
+yatpa:
+  cancel: '&cYou cannot request teleport while muted'
+player-not-found: '&cPlayer not found'
+command-denied: '&cYou cannot use this command while muted'
+```
+
 ### Folia inquisitors
 
 [<img src="https://github.com/Folia-Inquisitors.png" width=80 alt="Folia-Inquisitors">](https://github.com/orgs/Folia-Inquisitors/repositories)
