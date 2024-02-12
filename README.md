@@ -35,6 +35,7 @@ filter-command:
 ### Part1 - When adding external commands do 
 > 
 > pattern: \\\\ before the /
+> 
 > so pattern: \\\\/
 
 ### Part 2 - When adding a command that uses an username use (.+) 
