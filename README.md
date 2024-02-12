@@ -15,37 +15,6 @@ Player commands - /mute ( player ), /unmute ( player ).
 
 Admin commands - /GlobalMute ( player ), /GlobalUnmute ( player ).
 
-## Default Config
-
-filter-command:
-  global:
-  - /r
-  - /reply
-  player:
-  - /tpa
-  - /tpahere
-  - /w
-  - /whisper
-  - /msg
-  - /tell
-  enabled: true
-
-## Documentation
-
-### Part 1 - When adding external commands do 
-> 
-> pattern: \\\\ before the /
-> 
-> so pattern: \\\\/
-
-### Part 2 - When adding a command that uses an username use (.+) 
-
-### Part 3 - When you have a external command include the quotation marks
-> 
-> an example of using part 1, 2 and 3 together 
->
-> "pattern: \\\\/clan invite (.+)" 
-
 ### Folia inquisitors
 
 [<img src="https://github.com/Folia-Inquisitors.png" width=80 alt="Folia-Inquisitors">](https://github.com/orgs/Folia-Inquisitors/repositories)
