@@ -11,7 +11,7 @@ This allows you others to mute people that are annoying and spam chat. This is m
 
 ## Commands
 
-## Player commands 
+### Player commands 
 
 > /mute ( player ), 
 >
