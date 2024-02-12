@@ -9,8 +9,6 @@ mvn clean install
 
 This allows you others to mute people that are annoying and spam chat. This is meant to be a simple plugin for servers. It is highly optimized and heavily tested. Feel free to constribute,.
 
-## Commands
-
 ### Player commands 
 
 > /mute ( player ), 
