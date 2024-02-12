@@ -11,9 +11,16 @@ This allows you others to mute people that are annoying and spam chat. This is m
 
 ## Commands
 
-Player commands - /mute ( player ), /unmute ( player ).
+Player commands - 
 
-Admin commands - /GlobalMute ( player ), /GlobalUnmute ( player ).
+> /mute ( player ), 
+>
+> /unmute ( player ).
+
+Admin commands - 
+> /GlobalMute ( player )
+>
+> /GlobalUnmute ( player ).
 
 ### Folia inquisitors
 
