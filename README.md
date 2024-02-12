@@ -22,6 +22,7 @@ This allows you others to mute people that are annoying and spam chat. This is m
 
 ## Default Config
 
+```
 filter-command:
   global:
   - /r
@@ -34,7 +35,7 @@ filter-command:
   - /msg
   - /tell
   enabled: true
-
+```
 ## Documentation
 
 ### Part 1 - When adding external commands do 
