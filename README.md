@@ -41,7 +41,7 @@ filter-command:
 
 ### Part 3 - When you have a external command include the quotation marks
 > 
-> an example of using part 1 and 2 together 
+> an example of using part 1, 2 and 3 together 
 >
 > "pattern: \\\\/clan invite (.+)" 
 
