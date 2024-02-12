@@ -17,7 +17,7 @@ This allows you others to mute people that are annoying and spam chat. This is m
 >
 > /unmute ( player ).
 
-## Admin commands 
+### Admin commands 
 > /GlobalMute ( player )
 >
 > /GlobalUnmute ( player ).
