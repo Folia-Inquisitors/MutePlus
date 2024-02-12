@@ -36,6 +36,20 @@ filter-command:
   - /tell
   enabled: true
 ```
+
+## Default Messeges
+
+```
+global-mute: '&cYou are muted globally'
+player-only: '&cYou must be a player to do this'
+prefix: '&8[&cMutePlus&8] &r'
+success: '&aSuccess'
+yatpa:
+  cancel: '&cYou cannot request teleport while muted'
+player-not-found: '&cPlayer not found'
+command-denied: '&cYou cannot use this command while muted'
+```
+
 ## Documentation
 
 ### Part 1 - When adding external commands do 
