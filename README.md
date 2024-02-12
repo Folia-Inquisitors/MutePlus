@@ -33,9 +33,9 @@ filter-command:
 ## Documentation
 
 ### Part1 - When adding external commands do 
-
-"pattern\\" before the /
-so "pattern\\/"
+> 
+> pattern\\ before the /
+> so pattern\\/
 
 ### Part 2 - When adding a command that uses an username use (.+) 
 
@@ -43,7 +43,7 @@ so "pattern\\/"
 
 an example of using part 1 and 2 together 
 
-"pattern: \/clan invite (.+)" 
+#### "pattern: \/clan invite (.+)" 
 
 ### Folia inquisitors
 
