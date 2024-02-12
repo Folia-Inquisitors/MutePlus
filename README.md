@@ -41,7 +41,7 @@ Part 2 - When adding a command that uses an username use (.+)
 
 an example of using part 1 and 2 together 
 
-"\\/clan invite (.+)"
+"\\\\/clan invite (.+)"
 
 ### Folia inquisitors
 
