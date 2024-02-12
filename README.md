@@ -34,16 +34,16 @@ filter-command:
 
 ### Part1 - When adding external commands do 
 > 
-> pattern\\ before the /
-> so pattern\\/
+> pattern: \\ before the /
+> so pattern: \\/
 
 ### Part 2 - When adding a command that uses an username use (.+) 
 
 ### Part 3 - When you have a external command include the quotation marks
-
-an example of using part 1 and 2 together 
-
-#### "pattern: \/clan invite (.+)" 
+> 
+> an example of using part 1 and 2 together 
+>
+> "pattern: \\/clan invite (.+)" 
 
 ### Folia inquisitors
 
