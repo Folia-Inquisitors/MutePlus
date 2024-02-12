@@ -32,7 +32,7 @@ filter-command:
 
 ## Documentation
 
-### Part1 - When adding external commands do 
+### Part 1 - When adding external commands do 
 > 
 > pattern: \\\\ before the /
 > 
