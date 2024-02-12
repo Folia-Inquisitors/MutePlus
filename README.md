@@ -30,6 +30,19 @@ filter-command:
   - /tell
   enabled: true
 
+## Documentation
+
+Part1 - When adding external commands do 
+
+\\ before the /
+so \\/
+
+Part 2 - When adding a command that uses an username use (.+)
+
+an example of using part 1 and 2 together 
+
+\\/clan invite (.+)
+
 ### Folia inquisitors
 
 [<img src="https://github.com/Folia-Inquisitors.png" width=80 alt="Folia-Inquisitors">](https://github.com/orgs/Folia-Inquisitors/repositories)
