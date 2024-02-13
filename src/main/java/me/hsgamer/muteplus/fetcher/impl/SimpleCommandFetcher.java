@@ -16,11 +16,9 @@ public class SimpleCommandFetcher implements CommandFetcher {
     public Optional<CommandResult> getPlayer(String command) {
         if (!command.startsWith(this.command)) return Optional.empty();
 
-        String playerName = "";
-        String[] args = command.split(" ");
-        if (args.length >= 2) {
-            playerName = args[1];
-        }
+        String remaining = command.substring(this.command.length()).trim();
+        int spaceIndex = remaining.indexOf(' ');
+        String playerName = spaceIndex == -1 ? remaining : remaining.substring(0, spaceIndex);
 
         return Optional.of(new CommandResult(playerName));
     }
