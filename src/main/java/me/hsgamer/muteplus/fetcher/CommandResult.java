@@ -6,16 +6,10 @@ import org.bukkit.OfflinePlayer;
 import java.util.Optional;
 
 public class CommandResult {
-    private final boolean present;
     private final String playerName;
 
     public CommandResult(String playerName) {
-        this.present = !playerName.isEmpty();
         this.playerName = playerName;
-    }
-
-    public boolean isPresent() {
-        return present;
     }
 
     public String getPlayerName() {
@@ -23,6 +17,10 @@ public class CommandResult {
     }
 
     public Optional<OfflinePlayer> getPlayer() {
+        if (playerName.isEmpty()) {
+            return Optional.empty();
+        }
+
         //noinspection deprecation
         OfflinePlayer player = Bukkit.getOfflinePlayer(playerName);
         if (player.hasPlayedBefore()) {
