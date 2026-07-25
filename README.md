@@ -1,14 +1,6 @@
 # MutePlus
 Website: https://www.spigotmc.org/resources/muteplus.115029/
 
-# Official Discord 
-
-https://discord.gg/aT9z7q7hX8
-
-## Building instructions
-
-mvn clean install
- 
 ## Description
 
 This allows you others to mute people that are annoying and spam chat. This is meant to be a simple plugin for servers. It is highly optimized and heavily tested. Feel free to constribute,.
@@ -53,6 +45,14 @@ yatpa:
 player-not-found: '&cPlayer not found'
 command-denied: '&cYou cannot use this command while muted'
 ```
+
+# Official Discord 
+
+https://discord.gg/aT9z7q7hX8
+
+## Building instructions
+
+mvn clean install
 
 ## Documentation
 
